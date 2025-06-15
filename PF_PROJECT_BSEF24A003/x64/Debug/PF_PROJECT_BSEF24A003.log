@@ -1,2 +1,10 @@
 ﻿  Project_.cpp
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(10,47): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(11,47): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(13,47): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(14,47): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(16,47): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(17,47): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(103,46): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\PF_PROJECT_BSEF24A003\Project_.cpp(113,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'double'
   PF_PROJECT_BSEF24A003.vcxproj -> C:\Users\User\source\repos\PF_PROJECT_BSEF24A003\x64\Debug\PF_PROJECT_BSEF24A003.exe

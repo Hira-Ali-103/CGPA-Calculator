@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PF_PROJECT_BSEF24A003\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Git\\ReleaseNotes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F5DB0F5-B561-48DB-A434-9D8955FD1261}|PF_PROJECT_BSEF24A003\\PF_PROJECT_BSEF24A003.vcxproj|C:\\Users\\User\\source\\repos\\PF_PROJECT_BSEF24A003\\PF_PROJECT_BSEF24A003\\Project_.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F5DB0F5-B561-48DB-A434-9D8955FD1261}|PF_PROJECT_BSEF24A003\\PF_PROJECT_BSEF24A003.vcxproj|solutionrelative:PF_PROJECT_BSEF24A003\\Project_.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -22,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReleaseNotes.html",
-              "DocumentMoniker": "C:\\Program Files\\Git\\ReleaseNotes.html",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Git\\ReleaseNotes.html",
-              "ToolTip": "C:\\Program Files\\Git\\ReleaseNotes.html",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Git\\ReleaseNotes.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-15T03:51:56.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Project_.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PF_PROJECT_BSEF24A003\\PF_PROJECT_BSEF24A003\\Project_.cpp",
               "RelativeDocumentMoniker": "PF_PROJECT_BSEF24A003\\Project_.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\PF_PROJECT_BSEF24A003\\PF_PROJECT_BSEF24A003\\Project_.cpp",
               "RelativeToolTip": "PF_PROJECT_BSEF24A003\\Project_.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAYwH0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-15T02:03:28.322Z",
               "EditorCaption": ""
