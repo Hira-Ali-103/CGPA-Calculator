@@ -25,23 +25,20 @@ void welcomeScreen() {
     printf("=============================================\n");
 }
 
-
 float calculateSemesterGPA(int numCourses, float credits[], float gradePoints[], float* totalCredits) {
     float weightedSum = 0.0;
     *totalCredits = 0;
     for (int i = 0; i < numCourses; i++) {
         weightedSum += gradePoints[i] * credits[i];
-        *totalCredits += credits[i];  
+        *totalCredits += credits[i];
     }
     return weightedSum / (*totalCredits);
 }
-
 
 int main() {
     int totalSemesters;
     float semesterGPA[MAX_SEMESTERS];
     float semesterCredits[MAX_SEMESTERS];
-
 
     float totalNumerator = 0.0;
     int totalDenominator = 0;
@@ -76,14 +73,33 @@ int main() {
         for (int j = 0; j < numCourses; j++) {
             printf("\nCourse %d:\n", j + 1);
 
-            printf("  Enter credit hours: ");
-            scanf_s("%f", &credits[j]);
+            // Credit input validation
+            while (1) {
+                printf("  Enter credit hours: ");
+                scanf_s("%f", &credits[j]);
+                if (credits[j] > 0 && credits[j] <= 4) {
+                    break;
+                }
+                else {
+                    printf("  Invalid credit hours. Please enter a value between 1 and 4.\n");
+                }
+            }
 
-            printf("  Enter grade (A, B+, A-, etc.): ");
-            scanf_s("%s", gradeInput, 5);
+            // Grade input validation
+            while (1) {
+                printf("  Enter grade (A, B+, A-, etc.): ");
+                scanf_s("%s", gradeInput, 5);
 
-            for (int k = 0; gradeInput[k]; k++) {
-                gradeInput[k] = toupper(gradeInput[k]);
+                for (int k = 0; gradeInput[k]; k++) {
+                    gradeInput[k] = toupper(gradeInput[k]);
+                }
+
+                if (gradeToPoint(gradeInput) != 0.0 || strcmp(gradeInput, "D") == 0) {
+                    break;
+                }
+                else {
+                    printf("  Invalid grade entered. Please enter a valid letter grade (e.g., A, B+, C-).\n");
+                }
             }
 
             gradePoints[j] = gradeToPoint(gradeInput);
@@ -93,7 +109,6 @@ int main() {
         float semesterTotalCredits = 0;
         semesterGPA[i] = calculateSemesterGPA(numCourses, credits, gradePoints, &semesterTotalCredits);
         semesterCredits[i] = semesterTotalCredits;
-
 
         printf("\nSemester %d GPA: %.2f\n", i + 1, semesterGPA[i]);
     }
